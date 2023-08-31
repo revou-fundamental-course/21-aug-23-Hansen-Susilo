@@ -1,5 +1,5 @@
 //Ganti Nama di home page
-let nama = prompt("Siapa nama Anda?")
+let nama = prompt("Nama Anda?")
 document.getElementById("name").innerHTML=nama
 
 //Menampilkan hasil Message Us
@@ -39,7 +39,7 @@ document.getElementById("submit").addEventListener("click",function(){
         pesan.style.border="1px solid black"
     }
 
-    if(!(nama.value=="" || tanggal.value=="" || !(laki.checked || perempuan.checked) || pesan=="")){
+    if(!(nama.value=="" || tanggal.value=="" || !(laki.checked || perempuan.checked) || pesan.value=="")){
         document.getElementById("displayNama").innerHTML="Nama: " + nama.value
         document.getElementById("displayTanggal").innerHTML="Tanggal: " + tanggal.value
         if(laki.checked){
