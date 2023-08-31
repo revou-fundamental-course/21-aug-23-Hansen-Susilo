@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hansen's Website</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--NAVIGATION PANE-->
+        <nav>
+            <div class="nav">
+                <img src="assets/revou logo.png" width="45" height="45" alt="RevoU logo">
+                <p><b><a href="#home">Home</a></b></p>
+                <p><b><a href="#profile">Our Profile</a></b></p>
+                <p><b>Portfolio</b></p>
+                <p><b><a href="#messageUs">Message Us</a></b></p>
+            </div>
+        </nav>
+
+        <!--MAIN-->
+        <main>
+            <!--HOME-->
+            <hr id="home"> 
+            <div class="div1">
+                <p id="div1_p1">Hi <b><span id="name">Hansen</span></b>, Welcome To Website</p>
+                <p>Ini adalah website latihan pertama</p>
+                <img src="assets/front_image.jpg" alt="Orang ketika programming">
+            </div>
+        
+            <!--SCHOOL'S PROFILE-->
+            <hr id="profile">
+            <div class="div2">
+                <div class="profile">
+                    <h2 id="profileText">School's Profile</h2>
+                </div>
+                <div class="about">
+                    <h2>About Us</h2>
+                    <p class="about">Based on our concern and passion for education, 
+                        and our hope of Indonesia's bright future, 
+                        Susilo's Superb School is committed to building a better future, 
+                        both nationally and globally, 
+                        through the cultivation of education and technology,
+                        whilst producing human recources with good quality,
+                        such as integrity, responsibility, social awareness,
+                        creativity, and leadership.</p>
+                </div>
+                <div class="visionMission">
+                    <h2>Vision & Mission</h2>
+                    <p><b>Vision: </b>An International school building and enhance
+                        the society in fostering and enriching the nation.</p>
+                    <p><b>Mission:</b> Building our beloved nation and engaging in the 
+                        educational restoration of all beings in the world through spiritual education.</p>
+                </div>
+                <h2>Our Facilitation</h2>
+                <div class="facilitation">
+                    <table class="facilitation">
+                        <tr><td><span class="bulet"></span></td></tr>
+                        <tr><td>Professional Teacher</td></tr>
+                    </table class="facilitation">
+                    <table class="facilitation">
+                        <tr><td><span class="bulet"></span></td></tr>
+                        <tr><td>Sport Field</td></tr>
+                    </table>
+                    <table class="facilitation">
+                        <tr><td><span class="bulet"></span></td></tr>
+                        <tr><td>Classroom</td></tr>
+                    </table>
+                </div>
+            </div>
+            
+            <!--MESSAGE US-->
+            <hr id="messageUs">
+            <div class="div3">
+                <h2>Message Us</h2>
+                <div class="div3_anak">
+                    <div class="kiri">
+                        <table>
+                            <tr>
+                                <td>Nama</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="text" placeholder="Nama" id="nama">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Tanggal lahir</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="date" id="tanggal">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Jenis kelamin</td>
+                                <td>:</td>
+                                <td>
+                                    <input type="radio" name="jenisKelamin" id="laki" class="jenisKelamin" value="Laki-laki">
+                                    <label id="labelLaki" for="laki">Laki-laki</label>
+                                    <input type="radio" name="jenisKelamin" id="perempuan" class="jenisKelamin" value="Perempuan">
+                                    <label id="labelPerempuan" for="perempuan">Perempuan</label>
+                                </td>
+                            </tr>
+                            <tr style="vertical-align: top;">
+                                <td>Pesan</td>
+                                <td>:</td>
+                                <td>
+                                    <textarea id="pesan" placeholder="Pesan"></textarea>
+                                </td>
+                            </tr>
+                            <tr style="text-align: center">
+                                <td colspan="3">
+                                    <input type="button" value="Submit" id="submit">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="kanan">
+                        <p><b>Hasil: </b></p>
+                        <div class="hasil">
+                        <p id="displayNama"></p>
+                        <p id="displayTanggal"></p>
+                        <p id="displayJenisKelamin"></p>
+                        <p id="displayPesan"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>

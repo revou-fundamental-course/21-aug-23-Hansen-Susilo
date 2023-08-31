@@ -1,0 +1,217 @@
+*{
+    font-family: arial;
+}
+
+body{
+    background-color: lightgray;
+}
+
+hr{
+    border: 0.01mm solid;
+}
+
+p, td{
+    font-size: 16px;
+}
+
+/*NAV*/
+.nav{
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: end;
+    padding: 1px 50px 1px 50px;
+}
+
+.nav :nth-child(1){
+    margin-right:auto;
+}
+
+.nav p{
+    border: 1px solid black;
+    color:black;
+    padding: 5px 30px 5px 30px;
+    margin-right:-0.2mm;
+}
+
+.nav a{
+    color:inherit;
+    text-decoration: inherit; 
+}
+
+.nav :nth-child(2){
+    border-radius: 5px 0px 0px 5px;
+}
+
+.nav :nth-child(5){
+    border-radius: 0px 5px 5px 0px;
+}
+
+/*MAIN*/
+/*Home*/
+.div1{
+    height:500px;
+    margin-top: -25px;
+    margin-bottom: -10px;
+    background-color: white;
+}
+
+.div1 p{
+    margin-left:100px;
+}
+
+#div1_p1{
+    font-size:25px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+}
+
+.div1 img{
+    height:300px;
+    width:400px;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    border-radius:20px;
+}
+
+/*Profile*/
+.div2 div.profile{
+    display: flex;
+    height: 130px;
+    align-items:center;
+    justify-content: center;
+    font-size: 30px;
+    background-image: url(../assets/profile_bg.jpg);
+    background-size: cover;
+    background-position: 0 25%;
+}
+
+.div2 h2{
+    margin-left:100px;
+    margin-right:100px;
+}
+
+.div2 p{
+    margin-left:150px;
+    margin-right:150px;
+    text-align: justify;
+}
+
+div.facilitation{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+table.facilitation{
+    width: 200px;
+    text-align: center;
+    margin-left:100px;
+    margin-bottom:30px;
+}
+
+span.bulet{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border:2px solid;
+    border-radius:50%;
+}
+
+.facilitation td{
+    padding-top: 10px;
+}
+
+/*Message Us*/
+.div3{
+    padding-left:100px;
+    padding-top:20px;
+    margin-top:-5px;
+    height: 350px;
+    background-color: white;
+}
+
+.div3_anak{
+    display: flex;
+    flex-direction: row;
+}
+
+    /*kiri*/
+.div3 input[type=text]{
+    width:347px;
+    height:30px;
+    padding-left:5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.div3 input[type=date]{
+    padding-left: 5px;
+    width: 348px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.div3 input[type=radio]{
+    margin-bottom: 4.5px;
+    vertical-align: middle;
+}
+
+.div3 input[type= button]{
+    width: 465px;
+    height: 35px;
+}
+
+.div3 textarea{
+    width: 348px;
+    max-width: 348px;
+    min-width: 348px;
+    height: 60px;
+    min-height: 60px;
+    padding-left: 5px;
+    padding-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.div3 td{
+    height: 30px;
+    padding-top: 5px;
+}
+
+    /*kanan*/
+div.kanan{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:100px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+
+div.hasil{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 190px;
+    min-height: 190px;
+    max-height: 190px;
+    border: 1px solid;
+    border-radius: 5px;
+    justify-content: center;
+    padding-left: 15px;
+    margin-top: -10px;
+}
+
+div.hasil p{
+    font-size: 14px;
+}
